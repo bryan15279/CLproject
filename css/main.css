@@ -1,0 +1,241 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+h2, h3, h4{
+z-index:1;
+font-size: 40px;
+text-align: center;
+background-color: dimgrey;
+opacity: 60%;
+font-family: impact, fantasy;
+color: snow;
+}
+ main {
+    flex: 1;
+}
+
+.about, .services, .contact{
+z-index:1;
+font-size: 20px;
+text-align: center;
+background-color: dimgrey;
+opacity: 60%;
+font-family: impact, fantasy;
+color: snow;
+width: 10%;
+height: 50%;
+display: inline-block;
+border: 2px solid black;
+}
+.about-title{
+    z-index:1;
+    font-size: 30px;
+    text-align: center;
+    background-color: dimgrey;
+    opacity: 60%;
+    font-family: impact, fantasy;
+    color:red;
+    width: 10%;
+    height: 50%;
+    }
+        
+footer {
+    height: 10vh;
+    background-color: dimgrey;
+    z-index: 1;
+    opacity: 60%;
+    color:snow;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: impact, fantasy;
+    letter-spacing: 2px;;
+    text-align: center;
+    
+}
+        
+.banner1,
+.banner2,
+.banner3,
+.banner4 {
+    width: 100%;
+    font-family: impact, fantasy;
+}
+        
+
+header ul{
+    text-align: center;
+}
+
+header ul li{
+ list-style: none;
+ display: inline-block;
+}
+
+header li a{
+    list-style: none; 
+    display: inline-block;  
+    text-decoration: none;
+    text-transform: uppercase;
+    color:snow;
+    font-size: 20px;
+    font-family: impact, fantasy;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding: 25px;
+}
+        
+header {
+    background-color: dimgrey;
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    opacity: 60%;
+    
+}
+        
+
+            
+img {
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: zoom-out 3s linear infinite;
+}
+
+@keyframes zoom-out {
+    100% {width: 100%;}
+}
+.text-box {
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: snow;
+    animation: textup 12s linear infinite;
+    transform: translateY(100px);
+    font-size: 20px;
+}
+.text-box h1 {
+    margin-bottom: 40px;
+}
+.text-box p {
+    font-size: 14 px;
+    line-height: 18px;
+    margin-top: 80px;
+}
+.text-box span {
+    background: red;
+    height: 2px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+}
+.banner1 {
+    animation: slide1 12s linear infinite;
+}
+.banner2 {
+    animation: slide2 12s linear infinite;
+}
+.banner3 {
+    animation: slide3 12s linear infinite;
+}
+.banner4 {
+    animation: slide4 12s linear infinite;
+}
+@keyframes slide1 {
+    0% {
+        visibility: visible;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    75% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes slide2 {
+    0% {
+        visibility: hidden;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: visible;
+    }
+    75% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes slide3 {
+    0% {
+        visibility: hidden;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    75% {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes slide4 {
+    0% {
+        visibility: hidden;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    75% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes textup {
+    10% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.text-box1 {
+    animation-delay: 0s;
+}
+.text-box2 {
+    animation-delay: 3s;
+}
+.text-box3 {
+    animation-delay: 6s;
+}
+.text-box4 {
+    animation-delay: 9s;
+}
