@@ -35,12 +35,12 @@ color: snow;
 
 .about-container{
     height: 70vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .about{
@@ -51,7 +51,7 @@ background-color: dimgrey;
 opacity: 60%;
 font-family: impact, fantasy;
 color: snow;
-width: 250px;
+width: 100%;
 height: 350px;
 border: 2px solid black;
 display: flex;
@@ -100,7 +100,7 @@ footer {
 header ul{
     text-align: center;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 header ul li{
@@ -118,7 +118,7 @@ header li a{
     font-family: impact, fantasy;
     letter-spacing: 2px;
     font-weight: 400;
-    padding: 25px;
+    padding: 5px;
 }
         
 header {
@@ -131,7 +131,9 @@ header {
     justify-content: space-around;
 }
         
-
+.desktop{
+display:none;
+}
             
 img {
     width: 120%;
@@ -276,13 +278,23 @@ img {
         flex-direction: row;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 600px){
 header ul{
-    flex-direction: column;
+    flex-direction: row;
+
+}
+
+@media only screen and (min-width: 600px){
+.desktop{
+display: block;
+}
+
 
 }
 header{
 height: 40vh;
+
+
 
 }
 
