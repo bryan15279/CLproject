@@ -34,14 +34,15 @@ color: snow;
 
 
 .about-container{
-    height: 70vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    margin-top: 3em;
-}
+    margin-top: 304px;
+    margin-bottom: 0px;
+    }
 
 .about{
 z-index:1;
@@ -52,7 +53,7 @@ opacity: 60%;
 font-family: impact, fantasy;
 color: snow;
 width: 100%;
-height: 350px;
+height: 250px;
 border: 2px solid black;
 display: flex;
 flex-direction: column;
@@ -123,7 +124,7 @@ header li a{
         
 header {
     background-color: dimgrey;
-    height: 10vh;
+    height: 5vh;
     width: 100%;
     z-index: 1;
     opacity: 60%;
@@ -141,7 +142,6 @@ img {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    animation: zoom-out 3s linear infinite;
 }
 
 @keyframes zoom-out {
@@ -156,6 +156,7 @@ img {
     animation: textup 12s linear infinite;
     transform: translateY(100px);
     font-size: 20px;
+    display: none;
 }
 .text-box h1 {
     margin-bottom: 40px;
@@ -173,16 +174,18 @@ img {
     left: 0;
 }
 .banner1 {
-    animation: slide1 12s linear infinite;
+    
+    display:none;
 }
 .banner2 {
-    animation: slide2 12s linear infinite;
+    display:none;
+    
 }
 .banner3 {
-    animation: slide3 12s linear infinite;
+    
 }
 .banner4 {
-    animation: slide4 12s linear infinite;
+   display:none;
 }
 @keyframes slide1 {
     0% {
@@ -273,29 +276,40 @@ img {
     animation-delay: 9s;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width:500px){
     .about-container{
         flex-direction: row;
     }
+    .desktop{
+        display: block;
+        
+        }
+        header ul{
+            flex-direction: row;}
+
 }
+
+
 @media only screen and (min-width: 600px){
-header ul{
-    flex-direction: row;
-
-}
-
-@media only screen and (min-width: 600px){
-.desktop{
-display: block;
-}
-
-
-}
-header{
-height: 40vh;
-
-
-
-}
-
+    
+       img {
+    animation: zoom-out 3s linear infinite;}
+    .text-box{display:block;}
+    .banner1 {
+        animation: slide1 12s linear infinite;
+        display: block;
+        }
+    .banner2 {
+        animation: slide2 12s linear infinite;
+        display: block;
+    }
+    .banner3 {
+        animation: slide3 12s linear infinite;
+        display: block;
+    }
+    .banner4 {
+        animation: slide4 12s linear infinite;
+        display: block;        
+    }
+    .about{display:block;}
 }
