@@ -1,11 +1,3 @@
-.a {
-    background-color: blue !important;
-}
-
-.b {
-    background-color:red impo !important;
-}
-
 body {
     padding: 0;
     margin: 0;
@@ -17,9 +9,10 @@ body {
 }
  
 
+
 a:hover{
 text-decoration: none;
-color:green;
+color:red;
 }
 
 h2, h3, h4{
@@ -313,3 +306,5 @@ img {
     }
     .about{display:block;}
 }
+
+

@@ -32,7 +32,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Email</a></li>
+                <li><a href="#">Newsletter</a></li>
             </ul>
         </nav>
 
@@ -86,19 +86,31 @@
     <div class="about-container">
         <section class="about desktop">
             <p class="about-title ">About</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at vulputate magna. Nunc vitae accumsan enim. Sed ipsum diam, ultrices quis convallis id, finibus nec eros. Morbi cursus suscipit velit sit amet accumsan. Sed ornare scelerisque metus id faucibus. Vestibulum at vestibulum libero. Mauris molestie sollicitudin urna non convallis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at vulputate magna. Nunc vitae accumsan
+                enim. Sed ipsum diam, ultrices quis convallis id, finibus nec eros. Morbi cursus suscipit velit sit amet
+                accumsan. Sed ornare scelerisque metus id faucibus. Vestibulum at vestibulum libero. Mauris molestie
+                sollicitudin urna non convallis.</p>
         </section>
 
         <section class="about desktop">
             <p class="about-title ">Services</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at vulputate magna. Nunc vitae accumsan enim. Sed ipsum diam, ultrices quis convallis id, finibus nec eros. Morbi cursus suscipit velit sit amet accumsan. Sed ornare scelerisque metus id faucibus. Vestibulum at vestibulum libero. Mauris molestie sollicitudin urna non convallis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at vulputate magna. Nunc vitae accumsan
+                enim. Sed ipsum diam, ultrices quis convallis id, finibus nec eros. Morbi cursus suscipit velit sit amet
+                accumsan. Sed ornare scelerisque metus id faucibus. Vestibulum at vestibulum libero. Mauris molestie
+                sollicitudin urna non convallis.</p>
         </section>
 
         <section class="about">
-            <p class="about-title ">Email Signup</p>
-            <p>Enter your email below to receive special offers from me.</p>
+            <p class="about-title ">Newsletter</p>
+            <p>Enter your email to receive special offers from me.</p>
+            <form name="form1" action="#">
+                <input id="email-input" type='text' name='text1' />
+        
+                <input  type="button" value="Submit" onclick="ValidateEmail()" />
+        
+            </form>
         </section>
-    </div>
+        </div>
 
 
 
@@ -106,6 +118,10 @@
         Nolan's Detailing
 
     </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
     <script src="js/main.js">
     </script>
 
