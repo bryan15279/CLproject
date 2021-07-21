@@ -78,8 +78,22 @@ footer {
     font-weight: 400;
     font-family: impact, fantasy;
     letter-spacing: 2px;;
-    text-align: center;
+    text-align: left;
     
+}
+
+.clock {
+    height: 10vh;
+    background-color: dimgrey;
+    z-index: 1;
+    opacity: 60%;
+    color:snow;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: impact, fantasy;
+    letter-spacing: 2px;;
+    text-align: right;
+
 }
         
 .banner1,
