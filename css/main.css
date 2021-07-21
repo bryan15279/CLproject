@@ -59,9 +59,9 @@ margin-top: 1em;
     font-size: 30px;
     text-align: center;
     background-color: dimgrey;
-    opacity: 60%;
+    opacity: 90%;
     font-family: impact, fantasy;
-    color:red;
+    color: red;
 }
 
 .about p, .about-title{
@@ -87,12 +87,12 @@ footer {
     background-color: dimgrey;
     z-index: 1;
     opacity: 60%;
-    color:snow;
+    color:Chartreuse;
     font-size: 40px;
     font-weight: 400;
     font-family: impact, fantasy;
     letter-spacing: 2px;;
-    text-align: right;
+    text-align: center;
 
 }
         
