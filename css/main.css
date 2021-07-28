@@ -132,12 +132,14 @@ header ul{
 #services{ 
     text-decoration: none;
     text-transform: uppercase;
-    color:snow;
+    color: orangered;
     font-size: 20px;
     font-family: impact, fantasy;
     letter-spacing: 2px;
     font-weight: 400;
     padding: 5px; 
+    text-align: center;
+    
 }
         
 header {
@@ -207,9 +209,7 @@ img {
     display:none;
     
 }
-.banner3 {
-    
-}
+
 .banner4 {
    display:none;
 }

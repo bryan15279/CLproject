@@ -70,7 +70,7 @@ var x = setInterval(function() {
 }, 1000);
 
 const listItems = document.getElementById('services-nav');
-const services = ['Wheels and Windows', 'Wax Only', 'Interior Only', 'Full Service']
+const services = ['Wheels and Windows', 'Wax Only','Interior Only', 'Full Service']
 const serviceList = document.getElementById('services')
 for (let i = 0; i < services.length; i ++) {
  const li = document.createElement('li')
@@ -97,7 +97,3 @@ listItems.addEventListener('click', (e) => {
 
 
 
-// <li>Wheels and Windows</li>
-//                 <li>Wax Only</li>
-//                 <li>Interior Only</li>
-//                 <li>Full Service</li>
